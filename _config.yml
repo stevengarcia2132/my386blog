@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog Title Steven's Data Science Blog 
-email: author_email@email.com stevengarcia4@me.com
+title: Steven's Data Science Blog 
+email: stevengarcia4@me.com
 description: >- "Data science can be difficult to understand. The internet has tons of information, but it's not always tailored towards beginners. These blog posts are designed to help teach basic conecpts to new and asipring data scientists!"
 baseurl: "/my386blog" # keep this the same or change it to the name of the repository 
 url: "https://esnt.github.io" https://stevengarcia2132.github.io"
