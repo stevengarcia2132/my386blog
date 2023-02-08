@@ -16,7 +16,7 @@ image: /assets/images/data.jpg
 
 I researched the book "Artificial Unintelligence" by Meredith Broussard and was interested by its premise. Throughout the book she explores how our eagerness to do almost everything digitally has led to poory created systems and produced technology that actually doesn't work. She explores the limits of technology issues a warning that we should never assume that computers always get things right. 
 
-https://raw.githubusercontent.com/stevengarcia2132/my386blog/main/assets/images/blogimage.jpg
+![Figure]https://raw.githubusercontent.com/stevengarcia2132/my386blog/main/assets/images/blogimage.jpg
 
 
 ---
