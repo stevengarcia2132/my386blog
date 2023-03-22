@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "207 Different Perspectives on How to Improve yourself"
+title:  "207 Different Perspectives on How to Improve Yourself"
 author: Steven Garica
 description: Web Scraping the top 207 motivational self-help books from Amazon's website!
 image: /assets/images/growth.jpg
@@ -12,10 +12,10 @@ I know firsthand how valuable the insights and guidance in these books can be. T
 
 
 
-### Part 1: Getting the Data
+## Part 1: Getting the Data
 ---
 
-## Finding the Correct Page
+# Finding the Correct Page
 
 The first thing I did was navigate to the where all the products are listed on a page. Each page displays around 15 products so the important thing is to find the page that  lets you navigate to all the available pages. You'll know you on the right page when it looks like the images below.  
 
@@ -26,7 +26,7 @@ When you find the correct page you want to save all the html code into a file. T
 
 
 
-## Scraping the page
+# Scraping the Page
 Below is all the code I used to scrape the title, number of reviews, rating,price and image link. Once you find the HTML code that represent
 
 ```
@@ -88,10 +88,10 @@ The first step was finding the class that contained the info for each product. O
  I executed this code many times after I saved the next page of products as the index file. Every time I moved from product page one to product page two I edited one of the last lines of the work.py file and added 'data2.json'. When i got to the 13 page of the product the bottom line read 'data13.json'.
 
 
-### Part 2 Reading and Cleaning the Data
+## Part 2 Reading and Cleaning the Data
 ---
 
-## Json, Json and More Json files
+# Json, Json and More Json files
 
 After running the code above many times, i ended up with 13 json files of data!
 
@@ -120,10 +120,11 @@ for json_file in json_files:
 merged_df = pd.concat(dfs, ignore_index=True)
 ```
 
-## Final touches
+# Final Touches
 After I read them all into the merged_df it was time for the fun part! Cleaing and getting the data ready for analysis. This involved converting the numeric variables into numeric types instead of strings. 
 
-```# create a new column called "rating_value"
+```
+# create a new column called "rating_value"
 merged_df['rating_value'] = merged_df['rating'].apply(lambda x: float(x.split()[0]))
 
 merged_df.drop('rating', axis=1, inplace=True)
@@ -132,6 +133,7 @@ original_columns = merged_df.columns.tolist()
 new_col = ['title','review','price','rating_value','link']
 new_df = merged_df.reindex(columns=new_col)
 new_df.to_csv("self-help books",index = False)
+
 ```
 
 After finding, scraping and cleaning the data my table came out like this!
