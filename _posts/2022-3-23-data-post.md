@@ -143,8 +143,8 @@ Now that I have data that can be manipulated I'm ready to conduct exploratory da
 
 The code used to make this dataset can be found in my github repository here. 
 
-https://github.com/stevengarcia2132/WebScrape-Amazon
+[Github](https://github.com/stevengarcia2132/WebScrape-Amazon)
 
 Data was combined with tables from 
 
-https://www.amazon.com/s?i=stripbooks&bbn=4736&rh=n%3A283155%2Cn%3A4736%2Cn%3A4744%2Cp_72%3A1250221011&dc&content-id=amzn1.sym.d3975239-6bd6-4ac7-88a5-1781bd35460e&pd_rd_r=34cd4b4c-e80e-43ba-9fc9-1ceeba0d8910&pd_rd_w=y9tOF&pd_rd_wg=yE1lI&pf_rd_p=d3975239-6bd6-4ac7-88a5-1781bd35460e&pf_rd_r=GXJQNQ4RFHP3WZ4MA4RH&qid=1679032402&rnid=4736&ref=sr_pg_1
+[Amazon Link](https://www.amazon.com/s?i=stripbooks&bbn=4736&rh=n%3A283155%2Cn%3A4736%2Cn%3A4744%2Cp_72%3A1250221011&dc&content-id=amzn1.sym.d3975239-6bd6-4ac7-88a5-1781bd35460e&pd_rd_r=34cd4b4c-e80e-43ba-9fc9-1ceeba0d8910&pd_rd_w=y9tOF&pd_rd_wg=yE1lI&pf_rd_p=d3975239-6bd6-4ac7-88a5-1781bd35460e&pf_rd_r=GXJQNQ4RFHP3WZ4MA4RH&qid=1679032402&rnid=4736&ref=sr_pg_1)
