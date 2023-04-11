@@ -12,7 +12,7 @@ Data is usefull because it can be interpreted to find insights that otherwise wo
 
 In this post I'll review the EDA (Exploratory Data Analysis) that I conducted for the price, number of reviews, and rating column. Now a brief refresher on what EDA is.
 
-![Figure] (https://raw.githubusercontent.com/stevengarcia2132/my386blog/main/assets/images/chart.jpg)
+![Figure](https://raw.githubusercontent.com/stevengarcia2132/my386blog/main/assets/images/chart.jpg)
 
 EDA helps to identify patterns, anomalies, and relationships in the data that may not be obvious at first glance. EDA can be used to explore various types of data, including numerical, categorical, and textual data. Some common techniques used in EDA include histograms, scatter plots, box plots, correlation matrices, and data clustering. If you're intersted in learning more about EDA this is a great post about it! [Blog](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)
 
